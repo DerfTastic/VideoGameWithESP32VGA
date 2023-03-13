@@ -86,8 +86,10 @@ void draw()
   graphics.setCursor(0, 30);
   graphics.print("jakey time");
 
-  for (int y = 100; y < 100 + t / 5; y++) {
-    graphics.dot(y % 100, floor(y / 100) + 30, c - y);
+  if (t < 5 * 5000) {
+    for (int y = 150; y < 150 + t / 5; y++) {
+      graphics.dot(y % 50, floor(y / 50) + 37, c - y);
+    }
   }
 
   graphics.end();

@@ -24,6 +24,9 @@ If you need another license, please feel free to contact me
 
 This was my first time actually using an ESP32 so I was really surprise at how fast it actually is. I'll probably be using this more than my arduino for quick microcontroller things now.
 
+![Picture of ESP32-controlled monitor with a 3D model of a thinking man](images/2023-03-13-032257.jpg)
+![Picture of the breadboard setup with the ESP32 dev board and a DAC controlling one color channel](images/2023-03-13-032403.jpg)
+
 ### Future plans:
 
 - Allow button input to be taken in so that a game can actually be made
